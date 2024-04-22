@@ -119,3 +119,40 @@ body {
 	border-radius: 6px;
 }
 
+/* About Section */
+.about {
+	background-color: var(--background);
+}
+
+.about__container {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.about__image {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	aspect-ratio: 1/1;
+	max-width: 280px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 50%;
+}
+
+.about__texts {
+	text-align: center;
+	display: grid;
+	gap: 1.5rem;
+}
+
+.subtitle {
+	font-size: 2rem;
+}
+
+.paragraph {
+	line-height: 1.5;
+	font-weight: 300;
+}
+

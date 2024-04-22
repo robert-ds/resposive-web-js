@@ -17,49 +17,99 @@
 </head>
 <body>
 
-	<main>
+	<!-- section menu -->
+	<header class="hero">
+		
+		<nav class="nav container container--hero">
+			<img src="./assets/images/logo.svg" class="nav__logo" alt="Robert logo">
 
-		<!-- Main section and menu -->
-		<header class="hero">
-			
-			<nav class="nav container container--hero">
-				<img src="./assets/images/logo.svg" class="nav__logo" alt="Robert logo">
+			<ul class="nav__list">
+				<li class="nav__item">
+					<a href="#nosotros" class="nav__link">Sobre Nosotros</a>
+				</li>
+				<li class="nav__item">
+					<a href="#aprender" class="nav__link">¿Qué aprenderé?</a>
+				</li>
+				<li class="nav__item">
+					<a href="#sponsor" class="nav__link">Sponsor</a>
+				</li>
+				<li class="nav__item">
+					<a href="#contacto" class="nav__link">Contacto</a>
+				</li>
+			</ul>
 
-				<ul class="nav__list">
-					<li class="nav__item">
-						<a href="#nosotros" class="nav__link">Sobre Nosotros</a>
-					</li>
-					<li class="nav__item">
-						<a href="#aprender" class="nav__link">¿Qué aprenderé?</a>
-					</li>
-					<li class="nav__item">
-						<a href="#sponsor" class="nav__link">Sponsor</a>
-					</li>
-					<li class="nav__item">
-						<a href="#contacto" class="nav__link">Contacto</a>
-					</li>
-				</ul>
+			<img src="./assets/images/menu.svg" class="nav__menu" alt="Hamburger menu">
 
-				<img src="./assets/images/menu.svg" class="nav__menu" alt="Hamburger menu">
+		</nav>
 
-			</nav>
+		<section class="hero__main container container--hero">
+			<article class="hero__texts">
+				<h1 class="hero__title">!Domina CSS desde cero</h1>
+				<p class="hero__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nisi fugit placeat, eligendi dignissimos nobis repellendus ab, libero odit non, velit. Laborum, non ipsa quam sapiente, eaque molestias accusamus obcaecati.</p>
+				<a href="https://robert-ds.vercel.app" class="hero__cta" target="_blank">Empieza el curso</a>
 
-			<section class="hero__main container container--hero">
-				<article class="hero__texts">
-					<h1 class="hero__title">!Domina CSS desde cero</h1>
-					<p class="hero__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod nisi fugit placeat, eligendi dignissimos nobis repellendus ab, libero odit non, velit. Laborum, non ipsa quam sapiente, eaque molestias accusamus obcaecati.</p>
-					<a href="https://robert-ds.vercel.app" class="hero__cta" target="_blank">Empieza el curso</a>
+			</article>
 
+			<figure class="hero__figure">
+				<img src="./assets/images/hero-img.png" class="hero__img" alt="Hero Image">
+			</figure>
+		</section>
+
+	</header>
+
+	<!--Main Section-->
+	<main class="main">
+		
+		<!-- About Section -->
+		<section class="about" id="nosotros">
+			<article class="about__container container">
+				<figure class="about__figure">
+					<img src="./assets/images/robert-image.jpg" class="about__image">
+				</figure>
+
+				<div class="about__texts">
+					<h2 class="subtitle">Hola, Soy Robert Vásquez</h2>
+					<p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam cum tempora neque molestiae quis alias.</p>
+				</div>
+			</article>
+		</section>
+
+		<!-- Learn Section -->
+		<section class="learn container" id="aprender">
+			<h2 class="subtitle">¿Qué aprenderé en el curso?</h2>
+
+			<div class="learn__articles">
+				
+				<article class="learn__article">
+					<img class="learn__img" src="./assets/images/laptop-illustration.png" alt="laptop image">
+					<h2 class="learn__title">Crear cualquier sitio web</h2>
+					<p class="paragraph">
+						Aprende a crear el diseño de cualquien sitio web con css
+					</p>
 				</article>
 
-				<figure class="hero__figure">
-					<img src="./assets/images/hero-img.png" class="hero__img" alt="Hero Image">
-				</figure>
-			</section>
+				<article class="learn__article">
+					<img class="learn__img" src="./assets/images/search-ilustration.png" alt="Search image">
+					<h2 class="learn__title">Sube tu sitio web a internet</h2>
+					<p class="paragraph">
+						Al final del curso subiremos nuestro sitio web a internet, para que accedas a él, desde cualquier lugar del mundo!
+					</p>
+				</article>
 
-		</header>
-		
+				<article class="learn__article">
+					<img class="learn__img" src="./assets/images/computer-illustration.png" alt="Computer image">
+					<h2 class="learn__title">¡Responsive Design!</h2>
+					<p class="paragraph">
+						Aprenderás a adaptar todas tus páginas a dispositivos móviles, para que se vean genial en cualquier dispositivo!
+					</p>
+				</article>
+
+			</div>
+
+		</section>
+
 	</main>
+		
 
 	<script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
